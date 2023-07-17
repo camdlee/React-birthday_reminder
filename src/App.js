@@ -13,6 +13,7 @@ function App() {
         <h3>{people.length} Birthdays today</h3>
           <List people={people}/>
           <button onClick={()=> setPeople([])}>clear all</button>
+          <button onClick={()=> setPeople(data)}>Reset</button>
       </section>
     </main>
   );
